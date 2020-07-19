@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY_3 ASSIGNMENT</title>
+</head>
+
+<body>
+    <h2>QUESTION NO:-3</h2>
+    <h3>Program to take marks as input from the userand grade him accordingly</h3>
+    <script>
+        // using conditional statement
+
+        var marks = prompt("Enter your marks")
+            /* if (marks >= 60) {
+                 console.log(`marks are ${marks} and grade is A`)
+             } else if (marks >= 40) {
+                 console.log(`marks are ${marks} and grade is B`)
+             } else {
+                 console.log(`FAIL`)
+             }*/
+
+        // TERNARY
+
+        console.log(marks >= 60 ? `marks are ${marks} and grade is A` : (marks >= 40 ? `marks are ${marks} and grade is B` : 'FAIL'))
+    </script>
+</body>
+
+</html>
