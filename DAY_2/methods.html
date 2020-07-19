@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY_2 ASSIGNMENT</title>
+</head>
+
+<body>
+    <h2>QUESTION NO :-2</h2>
+    <h3>Various String methods and Array methods with examples and explanation</h3>
+
+    <script>
+        // STRING METHODS
+
+        var str = "abcdefghijk";
+        console.log(str.length); // length is not a menthod but but it is used to calculate the length of the given string.
+
+        console.log(str.indexOf("k")); // this is used to find the index of the the letter present in the string
+
+        console.log(str.lastIndexOf("e")) // this is use to display the last index position of the given letter
+
+        console.log(str.search("a")); // this is used to search the position of the given letter
+
+        console.log(str.slice(1, 5)); // used to slice the given string according to the index number or index position
+
+        console.log(str.slice(5)); // starts slicing from the indexvalue given
+
+        console.log(str.slice(-4)); // this starts to slice the string from the back side
+
+        console.log(str.substr(5)); // this is also same like slicing it takes the input and gives the substring
+
+        console.log(str.substr(-5));
+
+        console.log(str.replace("abc", "xyz")); // this is used to replace the string
+
+        console.log(str.toLocaleLowerCase()); // converts the string to lower case
+
+        console.log(str.toLocaleUpperCase()) // converts the string to upper case letters
+
+        console.log(str.concat("pqr")) // used to add some more text to the present string
+
+        console.log(str.trim()) // it is ued to trim to original string as giben before
+
+
+        //ARRAY METHODS
+
+        var colours = ["red", "blue", "green", "yellow"]
+
+        console.log(colours);
+
+        // console.log(colours.toString()); converts the array to string
+
+        console.log(colours.join("pink")) // joins pink to all the colours
+
+        console.log(colours.pop()); // used to remove the last element in the array
+
+        console.log(colours);
+
+        console.log(colours.push("orange")); // used to add the elements in the array
+
+        console.log(colours);
+
+        console.log(colours.shift()); // this is used to remove the first element in the list and returns the value which is removed from the array
+
+        console.log(colours.unshift("red")); // replaces the element from where it is remoed
+        console.log(colours);
+
+        console.log(colours.length) // returns the length of the array
+
+        console.log(colours);
+    </script>
+
+</body>
+
+</html>
