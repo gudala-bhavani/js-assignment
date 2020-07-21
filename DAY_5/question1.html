@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY-5 assignment</title>
+</head>
+
+<body>
+    <script>
+        do {
+            var n = prompt("enter a number")
+        } while (n >= 0) {
+            let arr = Array.isArray(n);
+            n--;
+            let odd = arr.filter(el => el % 2 == 0)
+            console.log(odd)
+            let evenCubes = arr.filter(el => el % 2 == 0).map((el) => el ** 3)
+            console.log(evenCubes)
+        }
+    </script>
+
+</body>
+
+</html>
